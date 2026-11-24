@@ -1,0 +1,17 @@
+\begin{table*}[!t]
+\centering
+\caption{Frozen DREAMS union-reference performance. Macro values average six eligible excerpts; micro values pool their event counts. Fold dispersion is descriptive because all five MASS ensembles evaluated the same excerpts.}
+\label{tab:dreams-external-results}
+\footnotesize
+\begin{tabular}{lrrrrrr}
+\toprule
+& \multicolumn{3}{c}{Macro (\%)} & \multicolumn{3}{c}{Micro (\%)} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+Architecture & IoU 0.20 & Tolerant & IoU 0.50 & IoU 0.20 & Tolerant & IoU 0.50 \\
+\midrule
+Conformer & 40.36 & 62.85 & 5.80 & 42.58 & 67.19 & 6.05 \\
+Sparse-Local Transformer & 38.03 & 62.66 & 5.98 & 39.86 & 66.20 & 5.73 \\
+Global Transformer & 47.92 & 58.48 & 27.08 & 51.47 & 62.44 & 28.67 \\
+\bottomrule
+\end{tabular}
+\end{table*}

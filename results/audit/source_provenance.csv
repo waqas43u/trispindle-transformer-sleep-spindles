@@ -1,0 +1,20 @@
+evidence,source,role
+MASS fold metrics: Global Transformer,MASS SS2 Results\results_Global_mass_xai_5fold\fold_summary.csv,authoritative internal fold results
+MASS subject metrics: Global Transformer,MASS SS2 Results\results_Global_mass_xai_5fold\subject_metrics_by_reference.csv,authoritative held-out subject results
+MASS explainability: Global Transformer,MASS SS2 Results\results_Global_mass_xai_5fold,fold-level attribution and ablation outputs
+MASS fold metrics: Sparse-Local Transformer,MASS SS2 Results\results_sparse_local_mass_xai_5fold\fold_summary.csv,authoritative internal fold results
+MASS subject metrics: Sparse-Local Transformer,MASS SS2 Results\results_sparse_local_mass_xai_5fold\subject_metrics_by_reference.csv,authoritative held-out subject results
+MASS explainability: Sparse-Local Transformer,MASS SS2 Results\results_sparse_local_mass_xai_5fold,fold-level attribution and ablation outputs
+MASS fold metrics: Conformer,MASS SS2 Results\results_conformer_mass_xai_5fold\fold_summary.csv,authoritative internal fold results
+MASS subject metrics: Conformer,MASS SS2 Results\results_conformer_mass_xai_5fold\subject_metrics_by_reference.csv,authoritative held-out subject results
+MASS explainability: Conformer,MASS SS2 Results\results_conformer_mass_xai_5fold,fold-level attribution and ablation outputs
+DREAMS architecture/reference summary,Dreams Results/results_dreams_transformer_final/comparison_summary.csv,authoritative external macro/micro summary
+DREAMS fold-excerpt-reference metrics,Dreams Results/results_dreams_transformer_final/comparison_fold_excerpt_reference_metrics.csv,external excerpt-level observations
+DREAMS scoring coverage,Dreams Results/results_dreams_transformer_final/scoring_coverage_audit.csv,reference interval and provenance audit
+DREAMS frozen evaluation manifest,Dreams Results/results_dreams_transformer_final/run_manifest.json,"documents no external training, tuning, calibration, or model selection"
+Checkpoint linkage and parameter counts,data/checkpoint_provenance_verified.csv,all 15 fold/architecture manifests verified
+Second-round checkpoint lineage,data/checkpoint_lineage_second_round.csv,"30 member-level records; local SHA-256, byte size, configuration, calibrator, decoder, and ensemble checks"
+DREAMS boundary validation,audit/dreams_boundary_reconstruction_validation.csv,"900 metric rows reproduced before boundary analysis"
+DREAMS matched-event boundaries,data/dreams_boundary_matches.csv,"read-only reconstruction from preserved predictions, original annotations, and authoritative greedy matching"
+Explainability provenance,audit/xai_provenance_verification.json,"held-out subject, fold, attribution target, ensemble provenance, and source-image hash"
+Paired statistics verification,audit/paired_statistics_recomputed.csv,"fold- and subject-level tests, Cohen's dz, and Holm adjustments recomputed from original result directories"

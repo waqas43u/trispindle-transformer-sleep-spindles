@@ -1,0 +1,21 @@
+\begin{table*}[!t]
+\centering
+\caption{Frozen DREAMS macro performance by audited annotation reference (\%). Expert~1 used eight excerpts over 0--1000~s; Expert~2 used six excerpts over 0--1800~s; the union used excerpts 1--6 over 0--1000~s.}
+\label{tab:dreams-reference-sensitivity}
+\footnotesize
+\begin{tabular}{llrrr}
+\toprule
+Architecture & Reference & IoU 0.20 & Tolerant F1 & IoU 0.50 \\
+\midrule
+Conformer & Expert 1 & 28.38 & 54.50 & 2.16 \\
+Conformer & Expert 2 & 40.32 & 59.30 & 5.22 \\
+Conformer & Union & 40.36 & 62.85 & 5.80 \\
+Sparse-Local Transformer & Expert 1 & 26.76 & 53.84 & 2.35 \\
+Sparse-Local Transformer & Expert 2 & 37.34 & 55.82 & 5.26 \\
+Sparse-Local Transformer & Union & 38.03 & 62.66 & 5.98 \\
+Global Transformer & Expert 1 & 38.68 & 50.14 & 18.76 \\
+Global Transformer & Expert 2 & 48.26 & 57.69 & 24.04 \\
+Global Transformer & Union & 47.92 & 58.48 & 27.08 \\
+\bottomrule
+\end{tabular}
+\end{table*}

@@ -1,0 +1,11 @@
+{
+  "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
+  "numpy": "2.4.6",
+  "scipy": "1.17.1",
+  "pandas": "3.0.5",
+  "mne": "1.12.1",
+  "sklearn": "1.9.0",
+  "torch": "2.5.1+cu124",
+  "shap": "0.51.0",
+  "cuda": "12.4"
+}

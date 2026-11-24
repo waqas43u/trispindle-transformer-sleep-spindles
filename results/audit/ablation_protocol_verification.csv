@@ -1,0 +1,6 @@
+fold,strategy,training_test_disjoint,attribution_target,baseline_raw,baseline_sigma,baseline_slow_sigma,baseline_envelope
+1,equal-subject training median in preprocessed units,True,"weighted ensemble probability before calibration, mean over event interval",-0.0005353373126126826,-7.170586968641146e-07,-1.5087846350070322e-07,0.008040009066462517
+2,equal-subject training median in preprocessed units,True,"weighted ensemble probability before calibration, mean over event interval",-0.00030004323343746364,1.1425356660765829e-07,-1.6524059276434855e-07,0.007130315527319908
+3,equal-subject training median in preprocessed units,True,"weighted ensemble probability before calibration, mean over event interval",2.0192772353766486e-05,2.139714752047439e-07,-1.2939061377892358e-07,0.007133931387215853
+4,equal-subject training median in preprocessed units,True,"weighted ensemble probability before calibration, mean over event interval",-0.00030004323343746364,-3.4656068237381987e-07,-1.6524059276434855e-07,0.007094745524227619
+5,equal-subject training median in preprocessed units,True,"weighted ensemble probability before calibration, mean over event interval",-0.0005353373126126826,-3.4656068237381987e-07,3.451899033279915e-07,0.007133931387215853

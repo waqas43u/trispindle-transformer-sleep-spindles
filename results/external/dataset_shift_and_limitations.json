@@ -1,0 +1,8 @@
+{
+  "adaptation": "No DREAMS training, calibration, threshold tuning, decoder tuning, or label-informed selection was performed.",
+  "channel_shift": "MASS used C3; DREAMS uses C3-A1 for excerpts 1/3 and CZ-A1 for the other excerpts.",
+  "coverage": "Expert 1 is scored over 0-1000 s; Expert 2 uses the explicitly acknowledged planned 0-1800 s policy; union is restricted to 0-1000 s and excerpts 1-6.",
+  "dataset_shift": "MASS training retained N2; DREAMS excerpts are evaluated as mixed-stage because no verified stage mask is applied.",
+  "dependency": "Five MASS fold ensembles evaluate the same DREAMS records and have overlapping MASS training sets; they are not independent replicates.",
+  "exposure": "Saved MASS-only manifests and empty external SSL paths should be cited before calling the evaluation fully unseen."
+}

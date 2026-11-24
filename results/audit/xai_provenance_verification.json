@@ -1,0 +1,35 @@
+{
+  "paper_example": {
+    "type": "tp",
+    "subject_id": "01-02-0002",
+    "event": [
+      17496.15625,
+      17497.703125
+    ],
+    "matched_true_event": [
+      17495.98046875,
+      17497.69140625
+    ],
+    "score": 0.9301199913024902,
+    "iou": 0.891156462585034,
+    "window_start_sample": 4478190,
+    "window_stop_sample": 4480238,
+    "fold": "fold_01",
+    "selection": "first available example in deterministic fold/subject order"
+  },
+  "paper_metadata_matches_first_fold_tp": true,
+  "subject_is_held_out_in_fold": true,
+  "attribution_status": {
+    "shap_available": true,
+    "shap_completed": true,
+    "target": "event-interval mean weighted probability before calibration",
+    "scope": "local input window; post-hoc, not used for selection"
+  },
+  "image_path": "C:\\Users\\waqasahm\\OneDrive - University of Eastern Finland\\UEF PhD\\Research papers\\Paper 5 Transformer-Based Model\\MASS SS2 Results\\results_conformer_mass_xai_5fold\\explainability_paper\\paper_tp_explanation.jpg",
+  "image_sha256": "082de45ca563db18830342fbd326223b0f68903c5e52cb7c5a5862167e4cf3c9",
+  "image_exists": true,
+  "ensemble_target_verified_from_protocol": true,
+  "envelope_delta_f1_mean": -0.6087583352937547,
+  "envelope_delta_f1_sd": 0.16023839004702903,
+  "envelope_delta_f1_pp": -60.87583352937547
+}

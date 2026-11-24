@@ -1,0 +1,11 @@
+# Archived experiment environment: Python 3.11.15
+# Install an appropriate torch CPU/CUDA build first if needed:
+# https://pytorch.org/get-started/locally/
+numpy==2.4.6
+scipy==1.17.1
+pandas==3.0.5
+mne==1.12.1
+scikit-learn==1.9.0
+matplotlib>=3.8
+torch==2.5.1
+shap==0.51.0

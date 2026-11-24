@@ -1,0 +1,21 @@
+excerpt,reference,coverage_start_sec,coverage_end_sec,scored_duration_min,reference_provenance,scoring_channel
+1,expert1,0.0,1000.0,16.666666666666668,/home/waqasahm/MASS_SS2/MASS_SS2_Project/Dreams_Dataset/Visual_scoring1_excerpt1.txt,C3-A1
+1,expert2,0.0,1800.0,30.0,/home/waqasahm/MASS_SS2/MASS_SS2_Project/Dreams_Dataset/Visual_scoring2_excerpt1.txt,C3-A1
+1,union,0.0,1000.0,16.666666666666668,overlap-only union of Visual_scoring1_excerpt1.txt and Visual_scoring2_excerpt1.txt,C3-A1|C3-A1
+2,expert1,0.0,1000.0,16.666666666666668,/home/waqasahm/MASS_SS2/MASS_SS2_Project/Dreams_Dataset/Visual_scoring1_excerpt2.txt,CZ-A1
+2,expert2,0.0,1800.0,30.0,/home/waqasahm/MASS_SS2/MASS_SS2_Project/Dreams_Dataset/Visual_scoring2_excerpt2.txt,CZ-A1
+2,union,0.0,1000.0,16.666666666666668,overlap-only union of Visual_scoring1_excerpt2.txt and Visual_scoring2_excerpt2.txt,CZ-A1|CZ-A1
+3,expert1,0.0,1000.0,16.666666666666668,/home/waqasahm/MASS_SS2/MASS_SS2_Project/Dreams_Dataset/Visual_scoring1_excerpt3.txt,C3-A1
+3,expert2,0.0,1800.0,30.0,/home/waqasahm/MASS_SS2/MASS_SS2_Project/Dreams_Dataset/Visual_scoring2_excerpt3.txt,C3-A1
+3,union,0.0,1000.0,16.666666666666668,overlap-only union of Visual_scoring1_excerpt3.txt and Visual_scoring2_excerpt3.txt,C3-A1|C3-A1
+4,expert1,0.0,1000.0,16.666666666666668,/home/waqasahm/MASS_SS2/MASS_SS2_Project/Dreams_Dataset/Visual_scoring1_excerpt4.txt,CZ-A1
+4,expert2,0.0,1800.0,30.0,/home/waqasahm/MASS_SS2/MASS_SS2_Project/Dreams_Dataset/Visual_scoring2_excerpt4.txt,CZ-A1
+4,union,0.0,1000.0,16.666666666666668,overlap-only union of Visual_scoring1_excerpt4.txt and Visual_scoring2_excerpt4.txt,CZ-A1|CZ-A1
+5,expert1,0.0,1000.0,16.666666666666668,/home/waqasahm/MASS_SS2/MASS_SS2_Project/Dreams_Dataset/Visual_scoring1_excerpt5.txt,CZ-A1
+5,expert2,0.0,1800.0,30.0,/home/waqasahm/MASS_SS2/MASS_SS2_Project/Dreams_Dataset/Visual_scoring2_excerpt5.txt,CZ-A1
+5,union,0.0,1000.0,16.666666666666668,overlap-only union of Visual_scoring1_excerpt5.txt and Visual_scoring2_excerpt5.txt,CZ-A1|CZ-A1
+6,expert1,0.0,1000.0,16.666666666666668,/home/waqasahm/MASS_SS2/MASS_SS2_Project/Dreams_Dataset/Visual_scoring1_excerpt6.txt,CZ-A1
+6,expert2,0.0,1800.0,30.0,/home/waqasahm/MASS_SS2/MASS_SS2_Project/Dreams_Dataset/Visual_scoring2_excerpt6.txt,CZ-A1
+6,union,0.0,1000.0,16.666666666666668,overlap-only union of Visual_scoring1_excerpt6.txt and Visual_scoring2_excerpt6.txt,CZ-A1|CZ-A1
+7,expert1,0.0,1000.0,16.666666666666668,/home/waqasahm/MASS_SS2/MASS_SS2_Project/Dreams_Dataset/Visual_scoring1_excerpt7.txt,CZ-A1
+8,expert1,0.0,1000.0,16.666666666666668,/home/waqasahm/MASS_SS2/MASS_SS2_Project/Dreams_Dataset/Visual_scoring1_excerpt8.txt,CZ-A1

@@ -1,0 +1,16 @@
+{
+  "argv": [
+    "--data_dir",
+    "./MASS_Dataset",
+    "--output_dir",
+    "results_trispindle_comparison_5fold",
+    "--paper_comparison_only",
+    "--paper_comparison_dirs",
+    "results_transformer_mass_xai_5fold,results_sparse_local_mass_xai_5fold,results_conformer_mass_xai_5fold"
+  ],
+  "dataset": "MASS-SS2",
+  "external_data_allowed": false,
+  "ssl_subjects": "fold training only",
+  "selection_subjects": "fold validation only",
+  "test_usage": "fixed evaluation and post-hoc explanation only"
+}

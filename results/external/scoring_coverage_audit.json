@@ -1,0 +1,182 @@
+[
+  {
+    "coverage_end_sec": 1000.0,
+    "coverage_start_sec": 0.0,
+    "excerpt": 1,
+    "reference": "expert1",
+    "reference_provenance": "/home/waqasahm/MASS_SS2/MASS_SS2_Project/Dreams_Dataset/Visual_scoring1_excerpt1.txt",
+    "scored_duration_min": 16.666666666666668,
+    "scoring_channel": "C3-A1"
+  },
+  {
+    "coverage_end_sec": 1800.0,
+    "coverage_start_sec": 0.0,
+    "excerpt": 1,
+    "reference": "expert2",
+    "reference_provenance": "/home/waqasahm/MASS_SS2/MASS_SS2_Project/Dreams_Dataset/Visual_scoring2_excerpt1.txt",
+    "scored_duration_min": 30.0,
+    "scoring_channel": "C3-A1"
+  },
+  {
+    "coverage_end_sec": 1000.0,
+    "coverage_start_sec": 0.0,
+    "excerpt": 1,
+    "reference": "union",
+    "reference_provenance": "overlap-only union of Visual_scoring1_excerpt1.txt and Visual_scoring2_excerpt1.txt",
+    "scored_duration_min": 16.666666666666668,
+    "scoring_channel": "C3-A1|C3-A1"
+  },
+  {
+    "coverage_end_sec": 1000.0,
+    "coverage_start_sec": 0.0,
+    "excerpt": 2,
+    "reference": "expert1",
+    "reference_provenance": "/home/waqasahm/MASS_SS2/MASS_SS2_Project/Dreams_Dataset/Visual_scoring1_excerpt2.txt",
+    "scored_duration_min": 16.666666666666668,
+    "scoring_channel": "CZ-A1"
+  },
+  {
+    "coverage_end_sec": 1800.0,
+    "coverage_start_sec": 0.0,
+    "excerpt": 2,
+    "reference": "expert2",
+    "reference_provenance": "/home/waqasahm/MASS_SS2/MASS_SS2_Project/Dreams_Dataset/Visual_scoring2_excerpt2.txt",
+    "scored_duration_min": 30.0,
+    "scoring_channel": "CZ-A1"
+  },
+  {
+    "coverage_end_sec": 1000.0,
+    "coverage_start_sec": 0.0,
+    "excerpt": 2,
+    "reference": "union",
+    "reference_provenance": "overlap-only union of Visual_scoring1_excerpt2.txt and Visual_scoring2_excerpt2.txt",
+    "scored_duration_min": 16.666666666666668,
+    "scoring_channel": "CZ-A1|CZ-A1"
+  },
+  {
+    "coverage_end_sec": 1000.0,
+    "coverage_start_sec": 0.0,
+    "excerpt": 3,
+    "reference": "expert1",
+    "reference_provenance": "/home/waqasahm/MASS_SS2/MASS_SS2_Project/Dreams_Dataset/Visual_scoring1_excerpt3.txt",
+    "scored_duration_min": 16.666666666666668,
+    "scoring_channel": "C3-A1"
+  },
+  {
+    "coverage_end_sec": 1800.0,
+    "coverage_start_sec": 0.0,
+    "excerpt": 3,
+    "reference": "expert2",
+    "reference_provenance": "/home/waqasahm/MASS_SS2/MASS_SS2_Project/Dreams_Dataset/Visual_scoring2_excerpt3.txt",
+    "scored_duration_min": 30.0,
+    "scoring_channel": "C3-A1"
+  },
+  {
+    "coverage_end_sec": 1000.0,
+    "coverage_start_sec": 0.0,
+    "excerpt": 3,
+    "reference": "union",
+    "reference_provenance": "overlap-only union of Visual_scoring1_excerpt3.txt and Visual_scoring2_excerpt3.txt",
+    "scored_duration_min": 16.666666666666668,
+    "scoring_channel": "C3-A1|C3-A1"
+  },
+  {
+    "coverage_end_sec": 1000.0,
+    "coverage_start_sec": 0.0,
+    "excerpt": 4,
+    "reference": "expert1",
+    "reference_provenance": "/home/waqasahm/MASS_SS2/MASS_SS2_Project/Dreams_Dataset/Visual_scoring1_excerpt4.txt",
+    "scored_duration_min": 16.666666666666668,
+    "scoring_channel": "CZ-A1"
+  },
+  {
+    "coverage_end_sec": 1800.0,
+    "coverage_start_sec": 0.0,
+    "excerpt": 4,
+    "reference": "expert2",
+    "reference_provenance": "/home/waqasahm/MASS_SS2/MASS_SS2_Project/Dreams_Dataset/Visual_scoring2_excerpt4.txt",
+    "scored_duration_min": 30.0,
+    "scoring_channel": "CZ-A1"
+  },
+  {
+    "coverage_end_sec": 1000.0,
+    "coverage_start_sec": 0.0,
+    "excerpt": 4,
+    "reference": "union",
+    "reference_provenance": "overlap-only union of Visual_scoring1_excerpt4.txt and Visual_scoring2_excerpt4.txt",
+    "scored_duration_min": 16.666666666666668,
+    "scoring_channel": "CZ-A1|CZ-A1"
+  },
+  {
+    "coverage_end_sec": 1000.0,
+    "coverage_start_sec": 0.0,
+    "excerpt": 5,
+    "reference": "expert1",
+    "reference_provenance": "/home/waqasahm/MASS_SS2/MASS_SS2_Project/Dreams_Dataset/Visual_scoring1_excerpt5.txt",
+    "scored_duration_min": 16.666666666666668,
+    "scoring_channel": "CZ-A1"
+  },
+  {
+    "coverage_end_sec": 1800.0,
+    "coverage_start_sec": 0.0,
+    "excerpt": 5,
+    "reference": "expert2",
+    "reference_provenance": "/home/waqasahm/MASS_SS2/MASS_SS2_Project/Dreams_Dataset/Visual_scoring2_excerpt5.txt",
+    "scored_duration_min": 30.0,
+    "scoring_channel": "CZ-A1"
+  },
+  {
+    "coverage_end_sec": 1000.0,
+    "coverage_start_sec": 0.0,
+    "excerpt": 5,
+    "reference": "union",
+    "reference_provenance": "overlap-only union of Visual_scoring1_excerpt5.txt and Visual_scoring2_excerpt5.txt",
+    "scored_duration_min": 16.666666666666668,
+    "scoring_channel": "CZ-A1|CZ-A1"
+  },
+  {
+    "coverage_end_sec": 1000.0,
+    "coverage_start_sec": 0.0,
+    "excerpt": 6,
+    "reference": "expert1",
+    "reference_provenance": "/home/waqasahm/MASS_SS2/MASS_SS2_Project/Dreams_Dataset/Visual_scoring1_excerpt6.txt",
+    "scored_duration_min": 16.666666666666668,
+    "scoring_channel": "CZ-A1"
+  },
+  {
+    "coverage_end_sec": 1800.0,
+    "coverage_start_sec": 0.0,
+    "excerpt": 6,
+    "reference": "expert2",
+    "reference_provenance": "/home/waqasahm/MASS_SS2/MASS_SS2_Project/Dreams_Dataset/Visual_scoring2_excerpt6.txt",
+    "scored_duration_min": 30.0,
+    "scoring_channel": "CZ-A1"
+  },
+  {
+    "coverage_end_sec": 1000.0,
+    "coverage_start_sec": 0.0,
+    "excerpt": 6,
+    "reference": "union",
+    "reference_provenance": "overlap-only union of Visual_scoring1_excerpt6.txt and Visual_scoring2_excerpt6.txt",
+    "scored_duration_min": 16.666666666666668,
+    "scoring_channel": "CZ-A1|CZ-A1"
+  },
+  {
+    "coverage_end_sec": 1000.0,
+    "coverage_start_sec": 0.0,
+    "excerpt": 7,
+    "reference": "expert1",
+    "reference_provenance": "/home/waqasahm/MASS_SS2/MASS_SS2_Project/Dreams_Dataset/Visual_scoring1_excerpt7.txt",
+    "scored_duration_min": 16.666666666666668,
+    "scoring_channel": "CZ-A1"
+  },
+  {
+    "coverage_end_sec": 1000.0,
+    "coverage_start_sec": 0.0,
+    "excerpt": 8,
+    "reference": "expert1",
+    "reference_provenance": "/home/waqasahm/MASS_SS2/MASS_SS2_Project/Dreams_Dataset/Visual_scoring1_excerpt8.txt",
+    "scored_duration_min": 16.666666666666668,
+    "scoring_channel": "CZ-A1"
+  }
+]

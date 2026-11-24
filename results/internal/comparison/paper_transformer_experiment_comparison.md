@@ -1,0 +1,5 @@
+| experiment | architecture | directory | n_folds | complete_5fold | strict_event_precision | strict_event_recall | strict_event_f1 | tolerant_event_f1 | event_iou_f1_0_5 | sample_pr_auc | ACC | KAPPA | strict_event_f1_ci95_low | strict_event_f1_ci95_high |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| mass xai 5fold | conformer | results_conformer_mass_xai_5fold | 5 | True | 0.7931 | 0.8005 | 0.7958 | 0.8395 | 0.4674 | 0.6508 | 0.8813 | 0.5572 | 0.7608 | 0.8308 |
+| sparse local mass xai 5fold | local_transformer | results_sparse_local_mass_xai_5fold | 5 | True | 0.7576 | 0.8033 | 0.7793 | 0.8366 | 0.4562 | 0.6286 | 0.8816 | 0.5428 | 0.7147 | 0.8438 |
+| transformer mass xai 5fold | transformer | results_transformer_mass_xai_5fold | 5 | True | 0.6305 | 0.6675 | 0.6456 | 0.7911 | 0.3084 | 0.4982 | 0.8632 | 0.4419 | 0.4879 | 0.8033 |

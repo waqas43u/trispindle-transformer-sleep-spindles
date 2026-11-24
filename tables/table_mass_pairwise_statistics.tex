@@ -1,0 +1,15 @@
+\begin{table*}[!t]
+\centering
+\caption{Exploratory paired fold-level comparisons of union-reference F1 at IoU $\geq0.20$. Holm adjustment was applied separately to the three $t$-tests and three Wilcoxon tests.}
+\label{tab:mass-pairwise-statistics}
+\footnotesize
+\begin{tabular}{lrrrrrr}
+\toprule
+Comparison & $\Delta$ (pp) & $d_z$ & $p_t$ & $p_W$ & Holm $p_t$ & Holm $p_W$ \\
+\midrule
+Conformer vs. Global Transformer & +15.02 & 1.08 & 0.0740 & 0.0625 & 0.2221 & 0.1875 \\
+Conformer vs. Sparse-Local Transformer & +1.65 & 0.53 & 0.3005 & 0.1875 & 0.3005 & 0.3750 \\
+Sparse-Local Transformer vs. Global Transformer & +13.36 & 0.83 & 0.1356 & 0.1875 & 0.2712 & 0.3750 \\
+\bottomrule
+\end{tabular}
+\end{table*}

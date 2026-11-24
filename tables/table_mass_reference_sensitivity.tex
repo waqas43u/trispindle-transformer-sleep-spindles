@@ -1,0 +1,21 @@
+\begin{table*}[!t]
+\centering
+\caption{Five-fold mean event performance by MASS-SS2 annotation reference (\%). All architectures were trained using the union reference.}
+\label{tab:mass-reference-sensitivity}
+\footnotesize
+\begin{tabular}{llrrr}
+\toprule
+Architecture & Reference & Precision & Recall & F1@IoU 0.20 \\
+\midrule
+Conformer & Expert 1 & 39.28 & 91.33 & 54.93 \\
+Conformer & Expert 2 & 78.02 & 80.11 & 78.94 \\
+Conformer & Union & 79.31 & 80.05 & 79.58 \\
+Sparse-Local Transformer & Expert 1 & 37.35 & 90.96 & 52.93 \\
+Sparse-Local Transformer & Expert 2 & 74.51 & 80.40 & 77.28 \\
+Sparse-Local Transformer & Union & 75.76 & 80.33 & 77.93 \\
+Global Transformer & Expert 1 & 29.85 & 73.19 & 42.16 \\
+Global Transformer & Expert 2 & 62.06 & 66.79 & 64.06 \\
+Global Transformer & Union & 63.05 & 66.75 & 64.56 \\
+\bottomrule
+\end{tabular}
+\end{table*}

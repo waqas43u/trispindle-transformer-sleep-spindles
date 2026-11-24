@@ -1,0 +1,21 @@
+\begin{table*}[!t]
+\centering
+\caption{Internal MASS-SS2 performance across five held-out subject folds. Values are mean $\pm$ sample SD. All entries except Cohen's $\kappa$ are percentages. Bold denotes the highest descriptive mean.}
+\label{tab:mass-main-results}
+\footnotesize
+\begin{tabular}{lccc}
+\toprule
+Metric & Conformer & Sparse-Local & Global \\
+\midrule
+Strict precision & \textbf{$79.31\pm3.95$} & $75.76\pm4.64$ & $63.05\pm10.65$ \\
+Strict recall & $80.05\pm4.46$ & \textbf{$80.33\pm6.58$} & $66.75\pm16.14$ \\
+F1@IoU 0.20 & \textbf{$79.58\pm2.82$} & $77.93\pm5.20$ & $64.56\pm12.70$ \\
+Tolerant F1 & \textbf{$83.95\pm0.63$} & $83.66\pm1.11$ & $79.11\pm4.09$ \\
+F1@IoU 0.50 & \textbf{$46.74\pm10.92$} & $45.62\pm11.28$ & $30.84\pm16.91$ \\
+PR-AUC & \textbf{$65.08\pm8.71$} & $62.86\pm9.87$ & $49.82\pm15.41$ \\
+ROC-AUC & \textbf{$92.92\pm2.51$} & $92.08\pm2.38$ & $84.44\pm9.03$ \\
+Accuracy & $88.13\pm3.70$ & \textbf{$88.16\pm2.65$} & $86.32\pm2.34$ \\
+Cohen's $\kappa$ & \textbf{$0.557\pm0.056$} & $0.543\pm0.056$ & $0.442\pm0.111$ \\
+\bottomrule
+\end{tabular}
+\end{table*}

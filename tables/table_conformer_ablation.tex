@@ -1,0 +1,16 @@
+\begin{table}[!t]
+\centering
+\caption{Conformer frozen representation replacement. Each representation was replaced by its fold-specific equal-subject training median. $\Delta$F1 is replaced-input minus full-model F1 across five folds; negative values indicate degradation.}
+\label{tab:conformer-ablation}
+\footnotesize
+\begin{tabular}{lr}
+\toprule
+Replaced representation & $\Delta$F1 (pp) \\ 
+\midrule
+Raw & $-4.05\pm12.78$ \\ 
+Sigma & $-2.48\pm3.08$ \\ 
+Slow Sigma & $-5.56\pm6.32$ \\ 
+Envelope & $-60.88\pm16.02$ \\ 
+\bottomrule
+\end{tabular}
+\end{table}

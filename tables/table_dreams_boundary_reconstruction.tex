@@ -1,0 +1,21 @@
+\begin{table}[!t]
+\centering
+\caption{Reconstructed DREAMS union-reference boundary statistics for events matched at IoU $\geq0.20$. Values pool the matched events produced by the five frozen MASS fold ensembles and are descriptive, not independent replicates.}
+\label{tab:dreams-boundary-reconstruction}
+\footnotesize
+\setlength{\tabcolsep}{3.2pt}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lrrrrr}
+\toprule
+Architecture & $n$ & $|e_{\rm on}|$ & $|e_{\rm off}|$ & $e_{\rm dur}$ & IoU \\
+ & & (s) & (s) & (s) & \\
+\midrule
+Conformer & 735 & 0.317 & 0.981 & 0.683 & 0.344 \\
+Sparse-Local Transformer & 758 & 0.341 & 0.916 & 0.587 & 0.340 \\
+Global Transformer & 799 & 0.242 & 0.370 & 0.273 & 0.523 \\
+\bottomrule
+\end{tabular}
+}
+\vspace{1mm}
+\parbox{0.98\columnwidth}{\footnotesize $|e_{\rm on}|$ and $|e_{\rm off}|$ are median absolute onset and offset errors. $e_{\rm dur}$ is the median signed duration error (prediction minus reference). IoU is the median matched-event overlap.}
+\end{table}

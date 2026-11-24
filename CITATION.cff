@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use TriSpindle, please cite the accompanying manuscript and the archived software release."
+title: "TriSpindle: Controlled Transformer Evaluation for Sleep Spindle Segmentation"
+type: software
+version: "0.1.0"
+date-released: 2026-11-24
+abstract: "Research code and verified compact results for controlled Transformer-family sleep spindle segmentation and frozen external DREAMS evaluation."
+keywords:
+  - sleep spindle detection
+  - electroencephalography
+  - transformers
+  - conformer
+  - external validation
+repository-code: "https://github.com/REPLACE-WITH-ACCOUNT/trispindle-transformer-sleep-spindles"
